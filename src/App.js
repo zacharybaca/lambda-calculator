@@ -21,16 +21,17 @@ function App() {
   return (
     <div className="container">
       <Logo />
-      <div className="App">
-        <Display />
+      <div className="display-container">
+        <Display props="0" />
       </div>
-      <div>
+      <div className="special-number-container">
         <Specials />
         <Numbers />
-      </div>
-      <div>
+        <div className="operator-container">
         <Operators />
       </div>
+      </div>
+      
     </div>
   );
 }

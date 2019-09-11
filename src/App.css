@@ -2,12 +2,14 @@
     background-color: #c00025;
     width: 100%;
     max-width: 550px;
+    height: 600px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
 }
 .display {
     margin-top: 25px;
+    margin-left: 25px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -20,3 +22,30 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+.special-number-container{
+   display: flex;
+   flex-direction: column;
+   border: 2px solid yellow;
+}
+
+.operator-container {
+    border: 2px solid black;
+}
+
+.specials {
+    border: 2px solid blue;
+}
+
+.numbers {
+    border: 2px solid green;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    
+}
+button {
+    height: 30px;
+    width: 10%;
+}
