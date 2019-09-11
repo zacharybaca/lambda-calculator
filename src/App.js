@@ -1,5 +1,8 @@
 import React from "react";
 import "./App.css";
+import Numbers from './components/ButtonComponents/NumberButtons/Numbers';
+import Operators from './components/ButtonComponents/OperatorButtons/Operators';
+import Specials from './components/ButtonComponents/SpecialButtons/Specials';
 import Display from './components/DisplayComponents/Display';
 
 // STEP 4 - import the button and display components
@@ -20,6 +23,13 @@ function App() {
       <Logo />
       <div className="App">
         <Display />
+      </div>
+      <div>
+        <Specials />
+        <Numbers />
+      </div>
+      <div>
+        <Operators />
       </div>
     </div>
   );

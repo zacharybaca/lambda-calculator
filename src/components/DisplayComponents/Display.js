@@ -1,6 +1,8 @@
 import React from "react";
-import NumberButton from '../ButtonComponents/NumberButtons/NumberButton';
-const Display = () => {
-  return <div className="display"><NumberButton  /></div>;
+
+const Display = (props) => {
+  return <div className="display">
+            {props.props}   
+        </div>;
 };
 export default Display;
